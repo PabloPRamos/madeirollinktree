@@ -165,7 +165,7 @@ body {
     }
    
     .title-section h1{
-        font-size: 36px;
+        font-size: 23px;
     }
 
     .buttons {
@@ -173,8 +173,8 @@ body {
     }
 
     .buttons_button{
-        padding: 36px 20px;
-        font-size: 22px;
+        padding: 20px 20px;
+        font-size: 16px;
         margin: 0 8rem;
     }
 
@@ -184,10 +184,10 @@ body {
     }
 
     .footer_icones img{
-        width: 2.5rem;
+        width: 1.5rem;
     }
 
     .footer_texto{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
