@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Madeirol</title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Seção 1: Banner -->
+    <section class="banner">
+        
+        <div class="banner-container">
+            <img src="/assets/cozinha-amendoa-nero.jpg" alt="Banner do site">
+        </div>
+
+        <div class="banner-container-2">
+            <img src="/assets/escritorios.webp" alt="Banner do site">
+        </div>
+        
+        <span class="logo">Madeirol</span>
+    </section>
+    
+    <!-- Seção 2: Título -->
+    <section class="title-section">
+        <h1>Móveis sofisticados e de qualidade, que só a Madeirol pode oferecer</h1>
+    </section>
+    
+    <!-- Seção 3: Botões -->
+    <section class="buttons">
+        <a href="https://cutt.ly/rgcOkRW" target="_blank" rel="noopener noreferrer" class="buttons_button">Fale com nossos arquitetos</a>
+        <a href="https://www.madeirol.com.br/" target="_blank" rel="noopener noreferrer" class="buttons_button">Visite nosso site</a>
+        <a href="https://www.madeirol.com.br/inspiracoes-de-projetos/?ambiente=cozinhas" target="_blank" rel="noopener noreferrer" class="buttons_button">Conheça nossos projetos</a>
+        <a href="https://www.madeirol.com.br/MadDecor/" target="_blank" rel="noopener noreferrer" class="buttons_button">Decore você mesmo</a>
+        <a href="https://www.madeirol.com.br/blog/" target="_blank" rel="noopener noreferrer" class="buttons_button">Dicas de decoração</a>
+    </section>
+    
+    <!-- Seção 4: Rodapé -->
+    <footer class="footer">
+        <div class="footer_icones">
+            <a href="https://www.instagram.com/madeirol_/" target="_blank" rel="noopener noreferrer"><img src="/assets/layer-10.svg"></a>
+            <a href="https://cutt.ly/rgcOkRW" target="_blank" rel="noopener noreferrer"><img src="/assets/layer-11.svg"></a>
+            <a href="https://br.pinterest.com/madeirolmoveisplanejados/" target="_blank" rel="noopener noreferrer"><img src="/assets/layer-12.svg"></a>
+            <a href="https://www.tiktok.com/@madeirol" target="_blank" rel="noopener noreferrer"><img src="/assets/layer-13.svg"></a>
+            <a href="https://www.threads.net/@madeirol_" target="_blank" rel="noopener noreferrer"><img src="/assets/layer-14.svg"></a>
+        </div>
+
+        <span class="footer_texto">2025 Madeirol. Todos os direitos reservados.</span>
+    </footer>
+</body>
+</html>
