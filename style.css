@@ -79,7 +79,7 @@ body {
     transition: 0.3s;
 }
 
-.buttons button:hover {
+.buttons_button:hover {
     background-color: rgb(39, 17, 18);
 }
 
@@ -114,9 +114,8 @@ body {
     }
       
     .banner-container-2 img {
-        width: 100%;
         max-height: 33vh;
-        object-fit: cover;
+        width: 100%;
     }
 
     .logo {
@@ -132,9 +131,8 @@ body {
     }
 
     .buttons_button {
-        padding: 22px 20px;
-        font-size: 16px;
-        margin: 0 18rem;
+        padding: 22px;
+        margin: 0 8rem;
     }
 
     .footer {
@@ -143,7 +141,7 @@ body {
 }
 
 /* Versão para telas maiores (tablets) */
-@media (min-width: 700px) and (max-width: 1023px) {
+@media (min-width: 750px) and (max-width: 1023px) {
     
     .banner-container {
         display: block;
@@ -155,9 +153,7 @@ body {
     }
       
     .banner-container img {
-        width: 100%;
         max-height: 33vh;
-        object-fit: cover;
     }
 
     .logo {
@@ -173,9 +169,8 @@ body {
     }
 
     .buttons_button{
-        padding: 20px 20px;
-        font-size: 16px;
-        margin: 0 8rem;
+        padding: 20px;
+        margin: 0 4rem;
     }
 
     .footer{
@@ -189,5 +184,23 @@ body {
 
     .footer_texto{
         font-size: 16px;
+    }
+}
+
+/* Versão para telas maiores (Desktop) */
+@media (min-width: 1920px) {
+    
+    .banner-container {
+        display: none;
+    }
+    
+    .banner-container-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .buttons_button{
+        padding: 20px;
+        margin: 0 16rem;
     }
 }
